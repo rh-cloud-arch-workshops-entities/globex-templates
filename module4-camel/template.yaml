@@ -2,20 +2,23 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: globex-module1
-  title: Provisions the Globex-Lab Module 1
-  description: Template for the scaffolder that publishes module 1 via ArgoCD (OpenShift GitOps)
+  name: globex-module4-camel
+  title: Provisions the Camel Lab environment
+  description: |
+    This Backstage Template automatically provisions the Camel Lab for you.
+
+    In the [Camel Lab](https://link) you can implement a pluggable multi-channel support service for Globex customers, integrating Globex, Slack and Discord - using the Red Hat build of Camel and Camel K.
   tags:
     - recommended
     - lab
 spec:
-  owner: user:guest
+  owner: redhat/appservices
   type: lab-environment
 
   # These parameters are used to generate the input form in the frontend, and are
   # used to gather input data for the execution of the template.
   parameters:
-    - title: Only a few clicks
+    - title: Provision your lab environment
       required:
         - owner
         - name

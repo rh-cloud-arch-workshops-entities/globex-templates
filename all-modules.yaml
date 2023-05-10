@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-workshop-labs
+  description: A collection of all workshop module templates
+spec:
+  targets:
+    - ./module1-cdc/template.yaml
+    - ./module2-apim/template.yaml
+    - ./module3-skupper/template.yaml
+    - ./module4-camel/template.yaml
+#    - ./module5/template.yaml
+    
