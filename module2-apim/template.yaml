@@ -3,7 +3,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: globex-module2-apim
-  title: Provisions the API Management Lab environment
+  title: API Management Lab environment
   description: |
     This Backstage Template automatically provisions the API Management Lab for you.
 

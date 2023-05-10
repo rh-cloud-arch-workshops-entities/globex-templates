@@ -3,7 +3,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: globex-module3-skupper
-  title: Provisions the Skupper Lab environment
+  title: Skupper Lab environment
   description: |
     This Backstage Template automatically provisions the Skupper (Red Hat Service Interconnect) Lab for you.
 

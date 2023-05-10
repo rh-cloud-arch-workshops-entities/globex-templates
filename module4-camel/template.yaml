@@ -3,7 +3,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: globex-module4-camel
-  title: Provisions the Camel Lab environment
+  title: Camel Lab environment
   description: |
     This Backstage Template automatically provisions the Camel Lab for you.
 

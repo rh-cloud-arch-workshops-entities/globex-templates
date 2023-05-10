@@ -3,7 +3,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: globex-module1-cdc
-  title: Provisions the CDC Lab environment
+  title: CDC Lab environment
   description: |
     This Backstage Template automatically provisions the CDC Lab for you.
 
