@@ -1,0 +1,5 @@
+values: ${{ system.env.USER }}
+morevalues: ${{ system.user.name }}
+user: ${{ user.entity.metadata.name }}
+showmemore: ${{ user | dump }}
+owner: ${{ values.owner }}

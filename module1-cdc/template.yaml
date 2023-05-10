@@ -54,6 +54,23 @@ spec:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
 
+          
+    - action: debug:log
+      id: write-workspace-directory
+      name: List the workspace directory
+      input:
+        listWorkspace: true
+
     
     
+    - action: debug:wait
+      id: wait-30sec
+      name: Waiting for 30 seconds
+      input:
+        seconds: 30 
   
+    - action: roadiehq:utils:sleep
+      id: wait-2min
+      name: Waiting with Roadie for wait-2min
+      input: 
+        amount: 120
